@@ -1,0 +1,923 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Findit Real Estate</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- =========================
+         Navbar
+    ========================== -->
+    <header class="header">
+      <nav class="navbar container">
+        <!-- Logo -->
+        <a href="#" class="logo">
+          <img src="images/logoo.PNG" alt="Findit Real Estate Logo" />
+        </a>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Properties</a></li>
+          <li><a href="#">Agents</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+
+        <!-- Navbar Buttons -->
+        <div class="nav-buttons">
+          <a href="#" class="contact-btn">Contact us</a>
+
+          <a href="#" class="submit-btn"> Submit property </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- =========================
+         Hero Section
+    ========================== -->
+    <main>
+      <section class="hero">
+        <div class="container">
+          <!-- Hero Text -->
+          <div class="hero-content">
+            <div class="small-badge">
+              <span class="badge-icon">★</span>
+
+              <span>Your trusted partner in real estate</span>
+            </div>
+
+            <h1>
+              Your dream home,
+              <br />
+              just a step away
+            </h1>
+
+            <p class="hero-description">
+              Discover handpicked properties that match your lifestyle,
+              <br class="desktop-break" />
+              whether you're buying, selling, or investing.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#" class="primary-btn"> Explore properties </a>
+
+              <a href="#" class="secondary-btn"> Book a visit </a>
+            </div>
+          </div>
+
+          <!-- Video -->
+          <div class="video-wrapper">
+            <video
+              class="property-video"
+              poster="assets/video-cover.jpg"
+              controls
+            >
+              <source
+                src="images/WhatsApp Video 2026-07-28 at 8.44.09 AM (1).mp4"
+                type="video/mp4"
+              />
+
+              Your browser does not support the video tag.
+            </video>
+
+            <!-- Play Icon -->
+            <div class="play-icon">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============end of nav and hero========== -->
+      <!-- Featured Properties -->
+      <section class="featured">
+        <div class="container">
+          <div class="featured-header">
+            <div>
+              <p class="section-label">◉ FEATURED PROPERTIES</p>
+              <h2>Explore our featured listings</h2>
+            </div>
+
+            <p class="section-text">
+              From modern city apartments to spacious family homes, find the one
+              that feels just right.
+            </p>
+          </div>
+
+          <div class="property-grid">
+            <!-- Card 1 -->
+            <article class="property-card large-card">
+              <div class="property-image">
+                <img src="images/card1.jpg" alt="" />
+
+                <div class="property-tags">
+                  <span class="dark-tag">Houses</span>
+                  <span>Rent</span>
+                </div>
+              </div>
+
+              <div class="property-info">
+                <h3>Marble House</h3>
+                <p>161-03 84th Ave, Queens, NY 11432, USA Queens New York</p>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="property-card">
+              <div class="property-image">
+                <img src="images/card2.jpg" alt="" />
+
+                <div class="property-tags">
+                  <span class="dark-tag">Apartments</span>
+                  <span>Rent</span>
+                </div>
+              </div>
+
+              <div class="property-info">
+                <h3>Family Mansion</h3>
+                <p>654 Water St, New York, NY 10002, USA Manhattan</p>
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="property-card">
+              <div class="property-image">
+                <img src="images/card3.jpg" alt="" />
+
+                <div class="property-tags">
+                  <span class="dark-tag">Houses</span>
+                  <span>Sell</span>
+                </div>
+              </div>
+
+              <div class="property-info">
+                <h3>South Side Garden</h3>
+                <p>161-03 84th Ave, Queens, NY 11432, USA Queens New York</p>
+              </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="property-card">
+              <div class="property-image">
+                <img src="images/card4.jpg" alt="Modern Family Home" />
+
+                <div class="property-tags">
+                  <span class="dark-tag">Apartments</span>
+                  <span>Rent</span>
+                </div>
+              </div>
+
+              <div class="property-info">
+                <h3>Modern Family Home</h3>
+                <p>654 Water St, New York, NY 10002, USA Manhattan</p>
+              </div>
+            </article>
+
+            <!-- Card 5 -->
+            <article class="property-card">
+              <div class="property-image">
+                <img src="images/card5.jpg" alt="Rustic Forest Cabin" />
+
+                <div class="property-tags">
+                  <span class="dark-tag">Condos</span>
+                  <span>Rent</span>
+                </div>
+              </div>
+
+              <div class="property-info">
+                <h3>Rustic Forest Cabin</h3>
+                <p>1845 Tenbroeck Ave, The Bronx, NY 10461, USA</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- ===============end of 1 section========== -->
+
+      <!-- Benefits Section -->
+      <section class="benefits">
+        <div class="container benefits-wrapper">
+          <!-- Left Image -->
+          <div class="benefits-image">
+            <img src="images/sec1.PNG" alt="Real estate benefits" />
+          </div>
+
+          <!-- Right Content -->
+          <div class="benefits-content">
+            <p class="benefits-label">◉ OUR BENEFITS</p>
+
+            <h2>
+              Building dreams, one home
+              <br />
+              at a time
+            </h2>
+
+            <p class="benefits-description">
+              Our mission goes beyond real estate — it’s about guiding you
+              through one of life’s biggest milestones with heart, expertise,
+              and unwavering commitment.
+            </p>
+
+            <div class="benefits-list">
+              <div class="benefit-card">
+                <span class="benefit-number">01.</span>
+
+                <div>
+                  <h3>Buy a new home</h3>
+
+                  <p>
+                    Discover your dream home effortlessly. Explore diverse
+                    properties and expert guidance for a seamless buying
+                    experience.
+                  </p>
+                </div>
+              </div>
+
+              <div class="benefit-card">
+                <span class="benefit-number">02.</span>
+
+                <div>
+                  <h3>Rent a home</h3>
+
+                  <p>
+                    Discover your perfect rental effortlessly. Explore a diverse
+                    variety of listings tailored precisely to suit your unique
+                    lifestyle needs.
+                  </p>
+                </div>
+              </div>
+
+              <div class="benefit-card">
+                <span class="benefit-number">03.</span>
+
+                <div>
+                  <h3>Sell a home</h3>
+
+                  <p>
+                    Sell confidently with expert guidance and effective
+                    strategies, showcasing your property’s best features for a
+                    successful sale.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a href="#" class="benefits-btn">More about us</a>
+          </div>
+        </div>
+      </section>
+      <!-- ===========end of 2 section========== -->
+
+      <!-- Explore Cities Section -->
+      <section class="cities">
+        <div class="container">
+          <div class="cities-header">
+            <p class="cities-label">◉ EXPLORE CITIES</p>
+
+            <h2>Our location for you</h2>
+
+            <p>
+              Each neighborhood has its own story. Discover the areas that match
+              your lifestyle — whether you seek vibrant city energy, peaceful
+              family communities, or exclusive luxury living.
+            </p>
+          </div>
+
+          <div class="cities-grid">
+            <!-- City 1 -->
+            <article class="city-card">
+              <img src="images/img1.jpg" alt="Brooklyn" />
+
+              <h3>Brooklyn</h3>
+              <p>3 Property</p>
+            </article>
+
+            <!-- City 2 -->
+            <article class="city-card">
+              <img src="images/img2.jpg" alt="Manhattan" />
+
+              <h3>Manhattan</h3>
+              <p>4 Property</p>
+            </article>
+
+            <!-- City 3 -->
+            <article class="city-card">
+              <img src="images/img3.jpg" alt="Queens" />
+
+              <h3>Queens</h3>
+              <p>6 Property</p>
+            </article>
+
+            <!-- City 4 -->
+            <article class="city-card city-large">
+              <img src="images/img4.jpg" alt="Staten Island" />
+
+              <h3>Staten Island</h3>
+              <p>4 Property</p>
+            </article>
+
+            <!-- City 5 -->
+            <article class="city-card city-large">
+              <img src="images/img5.jpg" alt="The Bronx" />
+
+              <h3>The Bronx</h3>
+              <p>4 Property</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- ============end of 3 sec======== -->
+      <!-- Our Process Section -->
+      <section class="process">
+        <div class="container">
+          <div class="process-box">
+            <p class="process-label">◉ OUR PROCESS</p>
+
+            <h2>Simple steps to your dream home</h2>
+
+            <p class="process-text">
+              We make buying, selling, or investing in property effortless.
+              Here’s how we guide you every step of the way.
+            </p>
+
+            <div class="process-list">
+              <div class="process-item">
+                <span>01.</span>
+
+                <div>
+                  <h3>Discover</h3>
+                  <p>
+                    We start by understanding your goals and lifestyle, then
+                    curate properties that match.
+                  </p>
+                </div>
+              </div>
+
+              <div class="process-item">
+                <span>02.</span>
+
+                <div>
+                  <h3>Experience</h3>
+                  <p>
+                    Guided viewings and expert insights help you explore the
+                    best options with confidence.
+                  </p>
+                </div>
+              </div>
+
+              <div class="process-item">
+                <span>03.</span>
+
+                <div>
+                  <h3>Transact</h3>
+                  <p>
+                    From negotiation to closing, we ensure a seamless,
+                    stress-free transaction.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a href="#" class="process-btn">Start your journey</a>
+          </div>
+        </div>
+      </section>
+      <!-- ===========end of 4 sec========== -->
+      <!-- Latest Properties -->
+      <section class="latest-properties">
+        <div class="container">
+          <div class="latest-header">
+            <div>
+              <p class="latest-label">◉ LATEST PROPERTIES</p>
+              <h2>Fresh on the market</h2>
+            </div>
+
+            <p class="latest-description">
+              Stay ahead of the curve with our newest listings — handpicked
+              homes and investments recently added to the market.
+            </p>
+          </div>
+
+          <div class="property-filter">
+            <button class="active">View All</button>
+            <button>Apartments</button>
+            <button>Condos</button>
+            <button>Houses</button>
+            <button>Villas</button>
+          </div>
+
+          <div class="latest-grid">
+            <!-- Card 1 -->
+            <article class="latest-card">
+              <div class="latest-image">
+                <img src="images/img6.jpg" alt="South Sunlight Apartment" />
+
+                <div class="latest-tags">
+                  <span>Apartments</span>
+                  <span class="light-tag">Rent</span>
+                </div>
+              </div>
+
+              <div class="latest-content">
+                <p class="location">⌖ Staten Island</p>
+                <h3>South Sunlight Apartment</h3>
+                <p class="property-details">Beds: 4　 Baths: 2　 Sqft: 160</p>
+
+                <div class="property-owner">
+                  <div>
+                    <img src="images/agent1.jpg" alt="Rachel Gray" />
+                    <span>Rachel Gray</span>
+                  </div>
+
+                  <strong>$1,200</strong>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="latest-card">
+              <div class="latest-image">
+                <img src="images/3.jpg" alt="Marble House" />
+
+                <div class="latest-tags">
+                  <span>Houses</span>
+                  <span class="light-tag">Rent</span>
+                </div>
+              </div>
+
+              <div class="latest-content">
+                <p class="location">⌖ Queens</p>
+                <h3>Marble House</h3>
+                <p class="property-details">Beds: 4　 Baths: 3　 Sqft: 250</p>
+
+                <div class="property-owner">
+                  <div>
+                    <img src="images/agent1.jpg" alt="Steve Parker" />
+                    <span>Steve Parker</span>
+                  </div>
+
+                  <strong>$550,000</strong>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="latest-card">
+              <div class="latest-image">
+                <img src="images/1.jpg" alt="Family Mansion" />
+
+                <div class="latest-tags">
+                  <span>Apartments</span>
+                  <span class="light-tag">Rent</span>
+                </div>
+              </div>
+
+              <div class="latest-content">
+                <p class="location">⌖ Manhattan</p>
+                <h3>Family Mansion</h3>
+                <p class="property-details">Beds: 2　 Baths: 2　 Sqft: 150</p>
+
+                <div class="property-owner">
+                  <div>
+                    <img src="images/agent1.jpg" alt="Rachel Gray" />
+                    <span>Rachel Gray</span>
+                  </div>
+
+                  <strong>$2,200</strong>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="latest-card">
+              <div class="latest-image">
+                <img src="images/2.jpg" alt="East Sunlight Apartment" />
+
+                <div class="latest-tags">
+                  <span>Apartments</span>
+                  <span class="light-tag">Rent</span>
+                </div>
+              </div>
+
+              <div class="latest-content">
+                <p class="location">⌖ Staten Island</p>
+                <h3>East Sunlight Apartment</h3>
+                <p class="property-details">Beds: 4　 Baths: 2　 Sqft: 160</p>
+
+                <div class="property-owner">
+                  <div>
+                    <img src="images/agent1.jpg" alt="Steve Parker" />
+                    <span>Steve Parker</span>
+                  </div>
+
+                  <strong>$1,200</strong>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 5 -->
+            <article class="latest-card">
+              <div class="latest-image">
+                <img src="images/3.jpg" alt="South Side Garden" />
+
+                <div class="latest-tags">
+                  <span>Houses</span>
+                  <span class="light-tag">Sell</span>
+                </div>
+              </div>
+
+              <div class="latest-content">
+                <p class="location">⌖ Queens</p>
+                <h3>South Side Garden</h3>
+                <p class="property-details">Beds: 4　 Baths: 3　 Sqft: 250</p>
+
+                <div class="property-owner">
+                  <div>
+                    <img src="images/agent1.jpg" alt="Steve Parker" />
+                    <span>Steve Parker</span>
+                  </div>
+
+                  <strong>$550,000</strong>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 6 -->
+            <article class="latest-card">
+              <div class="latest-image">
+                <img src="images/4.jpg" alt="Modern Family Home" />
+
+                <div class="latest-tags">
+                  <span>Apartments</span>
+                  <span class="light-tag">Rent</span>
+                </div>
+              </div>
+
+              <div class="latest-content">
+                <p class="location">⌖ Manhattan</p>
+                <h3>Modern Family Home</h3>
+                <p class="property-details">Beds: 2　 Baths: 2　 Sqft: 150</p>
+
+                <div class="property-owner">
+                  <div>
+                    <img src="images/agent1.jpg" alt="Rachel Gray" />
+                    <span>Rachel Gray</span>
+                  </div>
+
+                  <strong>$2,200</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <a href="#" class="view-properties-btn">View all properties</a>
+        </div>
+      </section>
+      <!-- ==========end of 5 sec======== -->
+      <!-- Testimonials Section -->
+      <section class="testimonials">
+        <div class="container">
+          <div class="testimonials-header">
+            <p class="testimonials-label">◉ TESTIMONIALS</p>
+
+            <h2>What our clients say</h2>
+
+            <p>
+              Real stories from homeowners and investors who trusted us to guide
+              their real estate journey.
+            </p>
+          </div>
+
+          <div class="testimonials-grid">
+            <!-- Card 1 -->
+            <article class="testimonial-card">
+              <div>
+                <p class="stars">★★★★★</p>
+                <h3>A Seamless Journey</h3>
+                <p class="testimonial-text">
+                  “Smooth and professional service. They guided us through every
+                  step and made buying our first home feel effortless.”
+                </p>
+              </div>
+
+              <div class="client">
+                <img src="images/person1.webp" alt="Anna V." />
+                <span>Anna V.</span>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="testimonial-card">
+              <div>
+                <p class="stars">★★★★★</p>
+                <h3>Trusted Expertise</h3>
+                <p class="testimonial-text">
+                  “Incredible knowledge of the market. They showed us the best
+                  options and secured a property beyond our expectations.”
+                </p>
+              </div>
+
+              <div class="client">
+                <img src="images/person2.png" alt="Lucas G." />
+                <span>Lucas G.</span>
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="testimonial-card">
+              <div>
+                <p class="stars">★★★★★</p>
+                <h3>Support You Can Rely On</h3>
+                <p class="testimonial-text">
+                  “Truly dedicated and reliable. From the first meeting to
+                  closing, their support made the entire process stress-free.”
+                </p>
+              </div>
+
+              <div class="client">
+                <img src="images/person3.png" alt="Mia F." />
+                <span>Mia F.</span>
+              </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="testimonial-card">
+              <div>
+                <p class="stars">★★★★★</p>
+                <h3>Exceptional Service</h3>
+                <p class="testimonial-text">
+                  “Every detail was handled with care. Their team made us feel
+                  confident and informed during the whole process.”
+                </p>
+              </div>
+
+              <div class="client">
+                <img src="images/person4.webp" alt="David S." />
+                <span>David S.</span>
+              </div>
+            </article>
+
+            <!-- Card 5 -->
+            <article class="testimonial-card">
+              <div>
+                <p class="stars">★★★★★</p>
+                <h3>Professional Guidance</h3>
+                <p class="testimonial-text">
+                  “From property selection to closing, they provided clear
+                  advice and hands-on support every step of the way.”
+                </p>
+              </div>
+
+              <div class="client">
+                <img src="images/person5.webp" alt="Emily T." />
+                <span>Emily T.</span>
+              </div>
+            </article>
+
+            <!-- Card 6 -->
+            <article class="testimonial-card">
+              <div>
+                <p class="stars">★★★★★</p>
+                <h3>Confident Decisions</h3>
+                <p class="testimonial-text">
+                  “Their insights and market knowledge gave us confidence to
+                  invest wisely and choose a home we truly love.”
+                </p>
+              </div>
+
+              <div class="client">
+                <img src="images/person6.jpg" alt="John D." />
+                <span>John D.</span>
+              </div>
+            </article>
+
+            <!-- Card 7 -->
+            <article class="testimonial-card">
+              <div>
+                <p class="stars">★★★★★</p>
+                <h3>Reliable Partner</h3>
+                <p class="testimonial-text">
+                  “They were always available to answer questions and made sure
+                  the buying process was transparent and worry-free.”
+                </p>
+              </div>
+
+              <div class="client">
+                <img src="images/person4.webp" alt="Lily K." />
+                <span>Lily K.</span>
+              </div>
+            </article>
+
+            <!-- Card 8 -->
+            <article class="testimonial-card">
+              <div>
+                <p class="stars">★★★★★</p>
+                <h3>Personalized Attention</h3>
+                <p class="testimonial-text">
+                  “They took the time to understand exactly what we wanted and
+                  helped us find a home that exceeded our expectations.”
+                </p>
+              </div>
+
+              <div class="client">
+                <img src="images/person6.jpg" alt="Chris W." />
+                <span>Chris W.</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- ============end of 6 sec============ -->
+      <!-- Statistics Section -->
+      <section class="stats-section">
+        <div class="container stats-grid">
+          <div class="stat-item">
+            <h2>$150M+</h2>
+            <h3>Properties sold</h3>
+            <p>
+              Over $150M in sales, helping clients find homes and investments
+              with ease and confidence.
+            </p>
+          </div>
+
+          <div class="stat-item">
+            <h2>500+</h2>
+            <h3>Happy clients</h3>
+            <p>
+              More than 500 satisfied clients trust us to make their real estate
+              journey smooth and successful.
+            </p>
+          </div>
+
+          <div class="stat-item">
+            <h2>20+</h2>
+            <h3>Years of expertise</h3>
+            <p>
+              Over 20 years of experience guiding clients with market insight
+              and professional advice.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Section -->
+      <section class="insights">
+        <div class="container">
+          <div class="insights-header">
+            <div>
+              <p class="insights-label">◉ LATEST NEW</p>
+              <h2>Insights &amp; Updates</h2>
+            </div>
+
+            <p class="insights-description">
+              Stay informed with expert tips, market trends, and property advice
+              to guide your real estate journey.
+            </p>
+          </div>
+
+          <div class="insights-grid">
+            <!-- Blog Card 1 -->
+            <article class="insight-card">
+              <img src="images/1.jpg" alt="Architectural Design" />
+
+              <div class="insight-content">
+                <h3>The Power of Natural Light in Architectural Design</h3>
+
+                <p>
+                  Natural light plays a crucial role in shaping architectural
+                  design, offering both aesthetic and functional benefits.
+                </p>
+              </div>
+            </article>
+
+            <!-- Blog Card 2 -->
+            <article class="insight-card">
+              <img src="images/pic2.jpg" alt="Building Photography" />
+
+              <div class="insight-content">
+                <h3>Photography: Capturing the Essence of Buildings</h3>
+
+                <p>
+                  Architectural photography goes beyond simply documenting
+                  structures; it captures the soul of a building.
+                </p>
+              </div>
+            </article>
+
+            <!-- Blog Card 3 -->
+            <article class="insight-card">
+              <img src="images/3.jpg" alt="Smart Homes" />
+
+              <div class="insight-content">
+                <h3>The Future of Smart Homes: Innovative Interior Design</h3>
+
+                <p>
+                  The rise of smart homes is transforming the way we live,
+                  blending cutting-edge technology with innovative design.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- ===========end of 7 sec========= -->
+      <!-- CTA and Footer -->
+      <footer class="footer">
+        <div class="container">
+          <!-- CTA -->
+          <div class="footer-cta">
+            <img src="images/footer.jpg" alt="Dream home" />
+
+            <div class="cta-overlay"></div>
+
+            <div class="cta-content">
+              <h2>Ready to find your dream home?</h2>
+
+              <p>
+                Whether you’re buying, selling, or investing, our team is here
+                to guide you every step of the way. Let’s make your next move
+                simple and successful.
+              </p>
+
+              <a href="#" class="cta-btn">Schedule a consultation</a>
+            </div>
+          </div>
+
+          <!-- Footer Content -->
+          <div class="footer-grid">
+            <div class="footer-column">
+              <h3>Contact Us</h3>
+
+              <p>
+                123 Main Street, Suite 456, Cityville,
+                <br />
+                ST 78901
+              </p>
+
+              <p>
+                (123) 456-7890
+                <br />
+                (987) 654-3210
+              </p>
+
+              <a href="mailto:info@findit.com">info@findit.com</a>
+            </div>
+
+            <div class="footer-column">
+              <h3>Our Company</h3>
+
+              <a href="#">All Properties</a>
+              <a href="#">Property for Buy</a>
+              <a href="#">Property for Rent</a>
+              <a href="#">Our Agents</a>
+            </div>
+
+            <div class="footer-column">
+              <h3>Quick Links</h3>
+
+              <a href="#">About Us</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Latest News</a>
+              <a href="#">404</a>
+            </div>
+
+            <div class="footer-column newsletter">
+              <h3>Join Our Newsletter</h3>
+
+              <p>Sign up for updates on our latest news.</p>
+
+              <form class="newsletter-form">
+                <input type="email" placeholder="Enter your e-mail" required />
+                <button type="submit">↗</button>
+              </form>
+
+              <small>
+                By clicking subscribe, you agree to the Terms of Service and
+                Privacy Policy.
+              </small>
+            </div>
+          </div>
+
+          <!-- Footer Bottom -->
+          <div class="footer-bottom">
+            <p>Copyright © 2025 - Findit by Marcframe. All rights reserved.</p>
+
+            <div class="social-links">
+              <span>Follow us :</span>
+              <a href="#">Instagram</a>
+              <a href="#">Facebook</a>
+              <a href="#">Youtube</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
